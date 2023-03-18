@@ -13,8 +13,8 @@
 		DD05D99829C5EAA500E14F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05D99629C5EAA500E14F03 /* Main.storyboard */; };
 		DD05D99A29C5EAAA00E14F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD05D99929C5EAAA00E14F03 /* Assets.xcassets */; };
 		DD05D99D29C5EAAA00E14F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD05D99B29C5EAAA00E14F03 /* LaunchScreen.storyboard */; };
-		DD05D9A529C5F76E00E14F03 /* NewsAPIMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05D9A429C5F76E00E14F03 /* NewsAPIMaster.swift */; };
-		DD05D9A729C5F80200E14F03 /* EldenRingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05D9A629C5F80200E14F03 /* EldenRingData.swift */; };
+		DD05D9A529C5F76E00E14F03 /* NewsAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05D9A429C5F76E00E14F03 /* NewsAPIManager.swift */; };
+		DD05D9AB29C60CDA00E14F03 /* GuardianAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05D9AA29C60CDA00E14F03 /* GuardianAPIData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		DD05D99929C5EAAA00E14F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD05D99C29C5EAAA00E14F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD05D99E29C5EAAA00E14F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD05D9A429C5F76E00E14F03 /* NewsAPIMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIMaster.swift; sourceTree = "<group>"; };
-		DD05D9A629C5F80200E14F03 /* EldenRingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EldenRingData.swift; sourceTree = "<group>"; };
+		DD05D9A429C5F76E00E14F03 /* NewsAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIManager.swift; sourceTree = "<group>"; };
+		DD05D9AA29C60CDA00E14F03 /* GuardianAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardianAPIData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +63,8 @@
 				DD05D99029C5EAA500E14F03 /* AppDelegate.swift */,
 				DD05D99229C5EAA500E14F03 /* SceneDelegate.swift */,
 				DD05D99429C5EAA500E14F03 /* ViewController.swift */,
-				DD05D9A429C5F76E00E14F03 /* NewsAPIMaster.swift */,
-				DD05D9A629C5F80200E14F03 /* EldenRingData.swift */,
+				DD05D9A429C5F76E00E14F03 /* NewsAPIManager.swift */,
+				DD05D9AA29C60CDA00E14F03 /* GuardianAPIData.swift */,
 				DD05D99629C5EAA500E14F03 /* Main.storyboard */,
 				DD05D99929C5EAAA00E14F03 /* Assets.xcassets */,
 				DD05D99B29C5EAAA00E14F03 /* LaunchScreen.storyboard */,
@@ -145,10 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD05D99529C5EAA500E14F03 /* ViewController.swift in Sources */,
-				DD05D9A529C5F76E00E14F03 /* NewsAPIMaster.swift in Sources */,
+				DD05D9A529C5F76E00E14F03 /* NewsAPIManager.swift in Sources */,
 				DD05D99129C5EAA500E14F03 /* AppDelegate.swift in Sources */,
 				DD05D99329C5EAA500E14F03 /* SceneDelegate.swift in Sources */,
-				DD05D9A729C5F80200E14F03 /* EldenRingData.swift in Sources */,
+				DD05D9AB29C60CDA00E14F03 /* GuardianAPIData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
