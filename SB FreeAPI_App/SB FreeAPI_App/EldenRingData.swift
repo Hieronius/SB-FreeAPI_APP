@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct NewsData: Codable {
+    let articles: [Article]
+}
+
 
 struct Article: Codable {
     let id: String?
