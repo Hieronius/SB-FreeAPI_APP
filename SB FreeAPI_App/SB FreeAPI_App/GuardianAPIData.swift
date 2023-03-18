@@ -30,23 +30,23 @@ struct Response: Codable {
 struct Result: Codable {
     let id: String
     let type: TypeEnum
-    let sectionID, sectionName: String
-    let webPublicationDate: Date
-    let webTitle: String
-    let webURL, apiURL: String
-    let isHosted: Bool
-    let pillarID, pillarName: String
+//      let sectionID, sectionName: String
+     // let webPublicationDate: Date?
+     let webTitle: String
+//     let webURL, apiURL: String
+     let isHosted: Bool
+//     let pillarID, pillarName: String
 
-    enum CodingKeys: String, CodingKey {
-        case id, type
-        case sectionID = "sectionId"
-        case sectionName, webPublicationDate, webTitle
-        case webURL = "webUrl"
-        case apiURL = "apiUrl"
-        case isHosted
-        case pillarID = "pillarId"
-        case pillarName
-    }
+//    enum CodingKeys: String, CodingKey {
+//        case id, type
+//        case sectionID = "sectionId"
+//        case sectionName, webPublicationDate, webTitle
+//        case webURL = "webUrl"
+//        case apiURL = "apiUrl"
+//        case isHosted
+//        case pillarID = "pillarId"
+//        case pillarName
+//    }
 }
 
 enum TypeEnum: String, Codable {

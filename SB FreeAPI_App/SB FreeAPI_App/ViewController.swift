@@ -19,9 +19,14 @@ class ViewController: UIViewController {
                 guard let self else { return }
                 
                 self.articles = values
-                 print(self.articles.count)
+                print(self.articles.count)
+                print(self.articles[0].id)
+                print(self.articles[0].isHosted)
+                print(self.articles[0].type)
+                print(self.articles[0].webTitle)
             }
         }
+        
     }
 
 
