@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         AF.request(urlString).validate().responseDecodable { dataResponse in
             switch dataResponse.result {
             case .success(let value):
-                self data = GuardianAPIData.
+                self dataResponse = GuardianAPIData.
             }
         }
         
